@@ -1,4 +1,5 @@
 package DesafioControleFluxo;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Contador {
@@ -49,6 +50,9 @@ public class Contador {
                     // Scanner Close
                     sc.close();
                 }
+            } catch (InputMismatchException e) {
+                System.out.println("Por favor, insira números!.");
+                sc.nextLine();
             } catch (ParametrosInvalidosException e) {
                 System.out.println("Lembre-se que o primerio número deve ser menor que o segundo.");
                 sc.nextLine();
