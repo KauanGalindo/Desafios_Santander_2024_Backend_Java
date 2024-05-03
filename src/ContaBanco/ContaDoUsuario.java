@@ -2,7 +2,6 @@ package ContaBanco;
 
 public class ContaDoUsuario {
 
-
     // Atributos da classe
     private String nomeCliente;
     private String numeroDaAgencia;
@@ -10,7 +9,7 @@ public class ContaDoUsuario {
     private double saldo;
 
     // Construtor
-    public ContaDoUsuario () {
+    public ContaDoUsuario() {
 
     }
 
