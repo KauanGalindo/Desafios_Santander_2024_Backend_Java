@@ -1,6 +1,7 @@
+package ContaBanco;
 import java.util.Scanner;
 
-public class ContaBancaria {
+public class ContaTerminal {
     public static void main(String[] args) {
 
         // Introdução
@@ -8,7 +9,7 @@ public class ContaBancaria {
         System.out.println("Nós da K@G agradecemos por nos escolher.\nJuntos podemos muito!.\n");
 
         // Instância da classe ContaTerminal
-        ContaTerminal cliente1 = new ContaTerminal();
+        ContaDoUsuario cliente1 = new ContaDoUsuario();
 
         // Scanner open
         Scanner sc = new Scanner(System.in);
@@ -33,6 +34,7 @@ public class ContaBancaria {
             sc.close();
         } catch (Exception e) {
             System.out.println("Por favor, insira um valor numérico nos campos: Conta, Agência, Saldo.");
+            System.out.println("========================================");
         }
     }
 }

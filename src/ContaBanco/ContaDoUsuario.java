@@ -1,4 +1,7 @@
-public class ContaTerminal {
+package ContaBanco;
+
+public class ContaDoUsuario {
+
 
     // Atributos da classe
     private String nomeCliente;
@@ -7,7 +10,7 @@ public class ContaTerminal {
     private double saldo;
 
     // Construtor
-    public ContaTerminal (){
+    public ContaDoUsuario () {
 
     }
 
@@ -57,6 +60,5 @@ public class ContaTerminal {
         System.out.println("Olá " +getNomeCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é " +getNumeroDaAgencia() +
                 ", conta " +getNumeroDaConta() + " e seu saldo " +getSaldo() + " já está disponível para saque");
     }
-
 
 }
