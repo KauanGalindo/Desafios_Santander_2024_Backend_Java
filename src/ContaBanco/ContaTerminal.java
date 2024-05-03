@@ -16,6 +16,7 @@ public class ContaTerminal {
 
         // Tratamento de exceção
         try {
+
             // Atribui valor as variáveis
             System.out.printf("Por favor, insira o seu nome: ");
             cliente1.setNomeCliente(sc.next());

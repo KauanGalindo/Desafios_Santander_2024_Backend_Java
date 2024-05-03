@@ -6,7 +6,6 @@ public class Contador {
 
         System.out.println("\n========CONTADOR DE 2 PARÂMETROS========\n");
 
-
         // Variáveis
         int primeiroNumero;
         int segundoNumero;
