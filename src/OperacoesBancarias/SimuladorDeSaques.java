@@ -1,4 +1,4 @@
-package ControleDeSaques;
+package OperacoesBancarias;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -37,11 +37,11 @@ public class SimuladorDeSaques {
                             double valorDeSaque = sc.nextDouble();
 
                             if (valorDeSaque > saldo)
-                                System.out.println("Saldo insuficiente");
+                                System.out.println("Saldo atual: " + saldo + ". Saldo insuficiente");
                             else if (valorDeSaque <= 0)
                                 System.out.println("Impossível sacar.");
                             else {
-                                saldo = deposito - valorDeSaque;
+                                saldo -= valorDeSaque;
                                 System.out.println("Saque realizado com sucesso!");
                             }
                             break;
