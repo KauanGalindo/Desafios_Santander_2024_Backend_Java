@@ -1,4 +1,4 @@
-package CollectionsJava.CollectionList.ListaTarefa;
+package CollectionsJava.List.ListaTarefa;
 
 public class Tarefa {
 

@@ -1,4 +1,4 @@
-package CollectionsJava.CollectionList.ListaTarefa;
+package CollectionsJava.List.ListaTarefa;
 
 import java.util.ArrayList;
 import java.util.List;

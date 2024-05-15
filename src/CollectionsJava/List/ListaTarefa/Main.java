@@ -1,9 +1,9 @@
-package CollectionsJava.CollectionList.ListaTarefa;
+package CollectionsJava.List.ListaTarefa;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Instância da Classe ListaTarefa
+        // Lista de Tarefa tarefas
         ListaTarefa tarefas = new ListaTarefa();
 
         // Adicionando Tarefas
