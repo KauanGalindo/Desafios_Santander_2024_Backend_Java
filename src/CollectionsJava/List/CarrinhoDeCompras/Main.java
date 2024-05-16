@@ -16,7 +16,7 @@ public class Main {
         carrinho.exibirItens();
 
         // Valor total dos itens do carrinho
-        System.out.println("Valor total do carrinho:" + carrinho.calcularValorTotal());
+        System.out.println("Valor total dos itens:" + carrinho.calcularValorTotal());
 
         // Remove item do carrinho
         carrinho.removeItem("MacBook PRO");
