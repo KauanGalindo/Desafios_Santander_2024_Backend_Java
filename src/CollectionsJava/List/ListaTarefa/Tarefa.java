@@ -3,7 +3,7 @@ package CollectionsJava.List.ListaTarefa;
 public class Tarefa {
 
     // Atributo
-    private String descricao;
+    private final String descricao;
 
     // Construtor
     public Tarefa(String descricao) {
