@@ -7,8 +7,12 @@
 /dataSources/
 /dataSources.local.xml
 
+.out/
+
 misc.xml
 modules.xml
 vcs.xml
 workspace.xml
 uiDesigner.xml
+.name
+Desafios_Santander_2024_Backend_Java.iml
